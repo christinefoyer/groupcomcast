@@ -1,0 +1,155 @@
+/* General reset and page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #4a4a4a;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: linear-gradient(to bottom, #006400, #000000); /* Green and Black Gradient */
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.get-started-btn {
+    background-color: #00b3e6;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #0099cc;
+}
+
+/* Content Section Styles */
+.content {
+    background-color: white;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    font-size: 32px;
+    color: #003366;
+    margin-bottom: 25px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.content ol, .content ul {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+.content ol li, .content ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #00b3e6;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .get-started-btn {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+
+    .content {
+        padding: 30px 15px;
+        margin: 20px auto;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .content ol, .content ul {
+        margin-left: 10px;
+    }
+
+    .content ol li, .content ul li {
+        font-size: 14px;
+    }
+}
